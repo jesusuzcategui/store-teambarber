@@ -114,14 +114,14 @@
         "template--21335723999546__f488c886-86fe-4fbe-a37c-636372d6db40-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "SUSCRÍBETE A NUESTROS NEWSLETTER",
             "heading_size": "h1"
           }
         },
         "template--21335723999546__f488c886-86fe-4fbe-a37c-636372d6db40-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Se el primero en enterarte de nuestras novedades, ofertas y consejos.<\/p>"
           }
         },
         "template--21335723999546__f488c886-86fe-4fbe-a37c-636372d6db40-email_form-1": {
@@ -136,7 +136,7 @@
         "template--21335723999546__f488c886-86fe-4fbe-a37c-636372d6db40-email_form-1"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
