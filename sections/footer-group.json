@@ -13,18 +13,18 @@
             "alignment": ""
           }
         },
-        "0df7c877-fadb-4d43-8281-c1b63da5cb5f": {
-          "type": "link_list",
-          "settings": {
-            "heading": "TEAM BARBER",
-            "menu": "footer"
-          }
-        },
         "d32ab963-ccdc-469e-8cb0-bc6a29d011ea": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "TEAM BARBER",
             "menu": "main-menu"
+          }
+        },
+        "0df7c877-fadb-4d43-8281-c1b63da5cb5f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "INFORMACIÓN",
+            "menu": "footer"
           }
         },
         "0a03a25d-d42a-4328-b9e9-5a38935b511b": {
@@ -37,12 +37,12 @@
       },
       "block_order": [
         "120b7c11-595c-446b-9dd3-c6c26c34d16e",
-        "0df7c877-fadb-4d43-8281-c1b63da5cb5f",
         "d32ab963-ccdc-469e-8cb0-bc6a29d011ea",
+        "0df7c877-fadb-4d43-8281-c1b63da5cb5f",
         "0a03a25d-d42a-4328-b9e9-5a38935b511b"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
