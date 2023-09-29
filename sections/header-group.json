@@ -8,8 +8,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Nueva oferta por ciberday",
-            "link": ""
+            "text": "¡YA COMENZO! ESTAMOS EN CYBER | HASTA 30% OFF",
+            "link": "shopify:\/\/collections\/todos-los-productos"
           }
         }
       },
@@ -20,7 +20,7 @@
         "color_scheme": "accent-1",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
