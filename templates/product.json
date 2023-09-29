@@ -78,7 +78,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "TAMBIEÉN TE PUEDE GUSTAR",
+        "heading": "TAMBIÉN TE PUEDE GUSTAR",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
