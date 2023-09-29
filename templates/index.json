@@ -96,12 +96,12 @@
         "template--21335723999546__00dff15b-7f3d-4f90-b5eb-576cd0060de5-featured_collection-3"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "NUESTROS PRODUCTOS",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
