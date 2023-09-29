@@ -11,10 +11,18 @@
             "text": "¡YA COMENZO! ESTAMOS EN CYBER | HASTA 30% OFF",
             "link": "shopify:\/\/collections\/todos-los-productos"
           }
+        },
+        "2515400e-9077-45df-a1b6-143ac48a351c": {
+          "type": "announcement",
+          "settings": {
+            "text": "BIENVENIDO A LA NUEVA TIENDA ESPECIALIZADA EN BARBERÍA",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "2515400e-9077-45df-a1b6-143ac48a351c"
       ],
       "settings": {
         "color_scheme": "accent-1",
