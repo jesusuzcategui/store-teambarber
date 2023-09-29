@@ -74,19 +74,19 @@
         "template--21335723999546__00dff15b-7f3d-4f90-b5eb-576cd0060de5-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "accesorios"
           }
         },
         "template--21335723999546__00dff15b-7f3d-4f90-b5eb-576cd0060de5-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cuidado-personal"
           }
         },
         "template--21335723999546__00dff15b-7f3d-4f90-b5eb-576cd0060de5-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "todos-los-productos"
           }
         }
       },
