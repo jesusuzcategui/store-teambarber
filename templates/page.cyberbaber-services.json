@@ -5,7 +5,7 @@
       "settings": {
         "background": "shopify:\/\/shop_images\/Group_2.jpg",
         "title": "CYBER<br>BARBER",
-        "subtitle": "SERVICIOS PREMIUM <br> Y GIFTCARD"
+        "subtitle": "SERVICIOS PREMIUM  Y GIFTCARD"
       }
     },
     "products": {
@@ -18,7 +18,8 @@
           "gitfcard-premium"
         ],
         "percent_off": 30,
-        "number_items": 2
+        "number_items": 2,
+        "photo_square": false
       }
     }
   },
