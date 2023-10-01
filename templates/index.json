@@ -58,7 +58,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
         },
@@ -72,7 +72,7 @@
             "button_label": "Más información",
             "link": "shopify:\/\/pages\/cyber-barber-cocos",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "top-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
