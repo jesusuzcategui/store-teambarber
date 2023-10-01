@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-primary",
+      "settings": {
+        "background": "shopify:\/\/shop_images\/Group_2.jpg",
+        "title": "CYBER<br>BARBER",
+        "subtitle": "",
+        "logo_brand": "shopify:\/\/shop_images\/my_cocos_logo_2_1.png"
+      }
+    },
+    "4727086e-dc8a-42be-851e-23047010d937": {
+      "type": "products-primary",
+      "settings": {
+        "background": "shopify:\/\/shop_images\/Desktop_-_6.jpg",
+        "title": "PRODUCTOS",
+        "products": [
+          "rasuradora-de-nariz-y-oreja",
+          "rasuradora-3-0pro",
+          "espuma-para-afeitar",
+          "desodorante-de-cocos",
+          "capa-espejo",
+          "balsamo-after-shave"
+        ],
+        "number_items": 4,
+        "photo_square": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "4727086e-dc8a-42be-851e-23047010d937"
+  ]
+}

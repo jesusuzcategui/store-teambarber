@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-primary",
+      "settings": {
+        "background": "shopify:\/\/shop_images\/Group_2.jpg",
+        "title": "CYBER<br>BARBER",
+        "subtitle": "",
+        "logo_brand": "shopify:\/\/shop_images\/level3logo_1.png"
+      }
+    },
+    "5d13fbc0-0717-4460-bcae-2452597e5002": {
+      "type": "products-primary",
+      "settings": {
+        "background": "shopify:\/\/shop_images\/Desktop_-_10.jpg",
+        "title": "Productos",
+        "products": [
+          "black-mask-level-3",
+          "peel-off-mask-black-level-3-250-ml",
+          "pomade-level-3"
+        ],
+        "number_items": 3,
+        "photo_square": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "5d13fbc0-0717-4460-bcae-2452597e5002"
+  ]
+}

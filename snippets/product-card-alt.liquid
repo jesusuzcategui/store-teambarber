@@ -1,0 +1,75 @@
+{% unless product == blank %}
+    
+    {% assign image_square = image_square | default: false %}
+    {% assign product_form_id = 'quick-add-' | append: section_id | append: product.id %}
+
+    <article class="product-card-alt">
+        {% unless percent == blank %}
+            <span class="product-card-alt__percent">
+                {{ percent | append: '% OFF' }}
+            </span>
+        {% endunless %}
+        <product-form class="product-card-alt__atc" data-section-id="{{ section.id }}">
+            {%- form 'product',
+              product,
+              id: product_form_id,
+              class: 'form',
+              novalidate: 'novalidate',
+              data-type: 'add-to-cart-form'
+            -%}
+              <input
+                type="hidden"
+                name="id"
+                value="{{ product.selected_or_first_available_variant.id }}"
+                class="product-variant-id"
+                disabled
+              >
+              <button
+                id="{{ product_form_id }}-submit"
+                type="submit"
+                name="add"
+                class="quick-add__submit button button--full-width button--secondary{% if horizontal_quick_add %} card--horizontal__quick-add{% endif %}"
+                aria-haspopup="dialog"
+                aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ product.id }}"
+                aria-live="polite"
+                data-sold-out-message="true"
+                {% if product.selected_or_first_available_variant.available == false %}
+                  disabled
+                {% endif %}
+              >
+                <span>
+                    {% render "icon-cart" %}
+                </span>
+                <span class="sold-out-message hidden">
+                  {{ 'products.product.sold_out' | t }}
+                </span>
+                
+                <div class="loading-overlay__spinner hidden">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    class="spinner"
+                    viewBox="0 0 66 66"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                  </svg>
+                </div>
+              </button>
+            {%- endform -%}
+          </product-form>
+        <figure class="product-card-alt__figure{% if image_square %} product-card-alt__figure--square{% endif %}">
+            <img
+                src="{{ product.featured_image.src | image_url }}"
+                width="{{ product.featured_image.width }}"
+                height="{{ product.featured_image.height }}"
+                loading="lazy"
+            />
+        </figure>
+        <a href="{{ product.url }}"><h3>{{ product.title }}</h3></a>
+        <div class="product-card-alt__price">
+            <span class="price-original">{{ product.compare_at_price | money }}</span>
+            <span class="price-real">{{ product.price | money }}</span>
+        </div>
+    </article>
+{% endunless %}

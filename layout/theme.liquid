@@ -35,6 +35,13 @@
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer="defer"></script>
+
     {{ content_for_header }}
 
     {%- liquid
@@ -246,6 +253,10 @@
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
       <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
@@ -270,6 +281,10 @@
     {% if template.name == "product" %}
       <link rel="stylesheet" href="{{ 'product-accordeon.min.css' | asset_url }}">
     {% endif %}
+
+    <link rel="stylesheet" href="{{ 'products-primary.min.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'hero-primary.min.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'products-card-alt.min.css' | asset_url }}">
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -335,6 +350,10 @@
       };
     </script>
 
+    {% if template.suffix == "cyberbaber-services" %}
+      <script src="{{ 'product-form.js' | asset_url }}" defer></script>
+    {% endif %}
+
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
@@ -342,5 +361,7 @@
     {% if template.name == "product" %}
       <script src="{{ 'product-accordeon.min.js' | asset_url }}" defer></script>
     {% endif %}
+    
+    <script type="module" src="{{ 'products-primary.min.js' | asset_url }}" defer></script>
   </body>
 </html>

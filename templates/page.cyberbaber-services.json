@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "eaedc06d-8c93-4171-be38-9ef27c95e0d8": {
+      "type": "hero-primary",
+      "settings": {
+        "background": "shopify:\/\/shop_images\/Group_2.jpg",
+        "title": "CYBER<br>BARBER",
+        "subtitle": "SERVICIOS PREMIUM <br> Y GIFTCARD"
+      }
+    },
+    "products": {
+      "type": "products-primary",
+      "settings": {
+        "background": "shopify:\/\/shop_images\/Group_1_7.jpg",
+        "title": "Servicios",
+        "products": [
+          "servicio-premium",
+          "gitfcard-premium"
+        ],
+        "percent_off": 30,
+        "number_items": 2
+      }
+    }
+  },
+  "order": [
+    "eaedc06d-8c93-4171-be38-9ef27c95e0d8",
+    "products"
+  ]
+}

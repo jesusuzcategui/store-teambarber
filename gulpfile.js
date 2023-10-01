@@ -7,7 +7,6 @@ const sass			= require('gulp-sass')(require('sass'));
 const sassLint		= require('gulp-sass-lint');
 const uglify		= require('gulp-uglify');
 const imagemin 		= require('gulp-imagemin');
-//const themekit		= require('@shopify/themekit');
 
 // Sass Paths
 var sassPaths = ['./node_modules'];

@@ -9,8 +9,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/LogoHeader.png",
-            "image_width": 285,
-            "alignment": ""
+            "image_width": 180,
+            "alignment": "center"
           }
         },
         "d32ab963-ccdc-469e-8cb0-bc6a29d011ea": {
