@@ -20,6 +20,9 @@ if (!customElements.get('product-form')) {
         evt.preventDefault();
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
+        fbq('track', 'addtocart');
+        console.log("As")
+
         this.handleErrorMessage();
 
         this.submitButton.setAttribute('aria-disabled', true);

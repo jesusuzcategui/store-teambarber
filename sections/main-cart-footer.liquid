@@ -123,6 +123,7 @@
     cartSubmitInput.setAttribute('type', 'hidden');
     document.querySelector('#cart').appendChild(cartSubmitInput);
     document.querySelector('#checkout').addEventListener('click', function (event) {
+      fbq('track', 'initPayment');
       document.querySelector('#cart').submit();
     });
   });

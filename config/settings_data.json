@@ -117,6 +117,12 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/LogoHeader.png",
+    "checkout_logo_position": "center",
+    "checkout_sidebar_background_color": "#000000",
+    "checkout_accent_color": "#aa810d",
+    "checkout_button_color": "#aa810d",
+    "checkout_error_color": "#ff6969",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",

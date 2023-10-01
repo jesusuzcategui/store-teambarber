@@ -9,4 +9,9 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '310517667397737');
     fbq('track', 'PageView');
+    
+    {% if request.path contains 'collections' or request.path contains 'product' %}
+        fbq('track', 'ViewContent');
+    {% endif %}
+    
 </script>
