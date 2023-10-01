@@ -1,0 +1,64 @@
+<div class="hero-primary">
+    <div class="hero-primary__cover">
+        <img 
+            src="{{ section.settings.background | image_url }}" 
+            width="{{ section.settings.background.width }}" 
+            height="{{ section.settings.background.height }}"
+            loading="lazy">
+    </div>
+    <div class="hero-primary__content">
+        <div class="hero-primary__wrapper">
+            {% unless section.settings.title == blank %}
+                <h3 class="hero-primary__title">
+                    <span>
+                        {{ section.settings.title }}
+                    </span>
+                </h3>
+            {% endunless %}
+            {% unless section.settings.subtitle == blank %}
+                <h4 class="hero-primary__subtitle">{{ section.settings.subtitle }}</h4>
+            {% endunless %}
+            {% unless section.settings.logo_brand == blank %}
+                <img 
+                    class="hero-primary__logo"
+                    src="{{ section.settings.logo_brand | image_url }}"
+                    width="{{ section.settings.logo_brand.width }}" 
+                    height="{{ section.settings.logo_brand.height }}"
+                    loading="lazy" />
+            {% endunless %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Hero primary",
+    "settings": [
+        {
+            "id": "background",
+            "type": "image_picker",
+            "label": "Background"
+        },
+        {
+            "id": "title",
+            "type": "text",
+            "label": "Titulo"
+        },
+        {
+            "id": "subtitle",
+            "type": "text",
+            "label": "Sub Titulo"
+        },
+        {
+            "id": "logo_brand",
+            "type": "image_picker",
+            "label": "Logo de marca"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Hero primary"
+        }
+    ]
+}
+{% endschema %}

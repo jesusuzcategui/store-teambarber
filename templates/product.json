@@ -41,6 +41,8 @@
         "description": {
           "type": "description",
           "settings": {
+            "medios_pagos": "<p>Puedes pagar con Tarjeta de Crédito, Redcompra o Transferencia Bancaria.<\/p>",
+            "tiempo_entrega": "<p>• Santiago: 1 - 2 días hábiles<\/p><p>• Regiones: hasta 5 días hábiles<\/p><p>• Regiones extremas: hasta 12 días hábiles* <\/p><p>Los pedidos en fechas como cyber o black tendrán un retraso minino por a alta demanda de los operadores logísticos (agregar 1 a 2 días extra a lo normal)<\/p>"
           }
         },
         "share": {

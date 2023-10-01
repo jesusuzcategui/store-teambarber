@@ -174,9 +174,39 @@
               </p>
             {%- when 'description' -%}
               {%- if product.description != blank -%}
-                <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                  {{ product.description }}
-                </div>
+                <product-accordeon>
+                  <details open>
+                    <summary>
+                      <span>Descripción</span>
+                      {% render 'icon-caret' %}
+                    </summary>
+                    <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                      {{ product.description }}
+                    </div>
+                  </details>
+                  {% unless block.settings.medios_pagos == blank %}
+                    <details>
+                      <summary>
+                        <span>Medios de pago</span>
+                        {% render 'icon-caret' %}
+                      </summary>
+                      <div class="">
+                        {{ block.settings.medios_pagos }}
+                      </div>
+                    </details>
+                  {% endunless %}
+                  {% unless block.settings.tiempo_entrega == blank %}
+                    <details>
+                      <summary>
+                        <span>Tiempo de entrega</span>
+                        {% render 'icon-caret' %}
+                      </summary>
+                      <div class="">
+                        {{ block.settings.tiempo_entrega }}
+                      </div>
+                    </details>
+                  {% endunless %}
+                </product-accordeon>
               {%- endif -%}
             {%- when 'sku' -%}
               <p
@@ -855,7 +885,19 @@
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "id": "medios_pagos",
+          "label": "Medios de pago",
+          "type": "richtext"
+        },
+        {
+          "id": "tiempo_entrega",
+          "label": "Tiempo de entrega",
+          "type": "richtext"
+        }
+      ]
     },
     {
       "type": "share",

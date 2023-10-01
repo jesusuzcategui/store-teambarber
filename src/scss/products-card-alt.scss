@@ -1,0 +1,157 @@
+.product-card-alt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+
+    @media screen and (max-width: 768px) {
+        padding: 0px 15px;
+    }
+    
+    &__percent {
+        position: absolute;
+        z-index: 2;
+        top: 30px;
+        display: block;
+        background: #A4832D;
+        padding: 5px 15px;
+        font-weight: 900;
+        left: 5px;
+        font-size: 25px;
+        color: #fff;
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
+            padding: 5px 8px;
+            top: 10px;
+        }
+    }
+    
+    &__atc {
+        position: absolute;
+        z-index: 2;
+        top: 30px;
+        display: block;
+        background: #A4832D;
+        padding: 5px 5px;
+        font-weight: 900;
+        right: 50px;
+        color: #fff;
+        border-radius: 50%;
+
+        width: 50px;
+        height: 50px;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        transition: all ease .5s;
+        cursor: pointer;
+
+        form {
+            width: 100%;
+            height: 100%;
+        }
+
+        button {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            min-width: auto;
+
+            &::after,
+            &::before {
+                display: none;
+            }
+        }
+
+        &::after {
+            box-shadow: none;
+        }
+
+        &:hover {
+            background: #000;
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 40px;
+            height: 40px;
+            right: 20px;
+            top: 10px;
+        }
+
+        svg {
+            width: 50px;
+            height: 50px;
+            
+            path {
+                fill: #fff;
+            }
+        }
+    }
+
+    &__price {
+        display: flex;
+        column-gap: 10px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        .price-original {
+            font-size: 30px;
+            text-decoration: line-through;
+            text-decoration-color: #A4832D;
+
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
+        }
+
+        .price-real {
+            font-size: 34px;
+            font-weight: 700;
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__figure {
+        position: relative;
+        width: 100%;
+        padding-bottom: 150%;
+        overflow: hidden;
+        margin-inline: 0;
+        margin-block: 0;
+
+        &--square {
+            padding-bottom: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+    }
+
+    h3 {
+        font-size: 30px;
+        margin: 10px 0px 5px;
+        color: #A4832D;
+        font-weight: 700;
+        text-align: center;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

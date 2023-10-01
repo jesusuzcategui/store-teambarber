@@ -1,0 +1,78 @@
+<div class="products-primary">
+    <div class="products-primary__cover">
+        <img 
+            src="{{ section.settings.background | image_url }}" 
+            width="{{ section.settings.background.width }}" 
+            height="{{ section.settings.background.height }}"
+            loading="lazy">
+    </div>
+    <div class="products-primary__content">
+        <div class="products-primary__wrapper">
+            {% unless section.settings.title == blank %}
+                <h3 class="products-primary__title">{{ section.settings.title }}</h3>
+            {% endunless %}
+            <div data-number-slides="{{ section.settings.number_items }}" class="products-primary__slider swiper" id="products-primary__slider--{{ section.id }}">
+                <div class="swiper-wrapper">
+                    {% for product in section.settings.products %}
+                        <div class="swiper-slide">
+                            {% render "product-card-alt",
+                                product: product,
+                                percent: section.settings.percent_off,
+                                section_id: section.id,
+                                image_square: section.settings.photo_square
+                            %}
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="products-primary__pagination"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Products primary",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "background",
+            "label": "Imagen de fondo"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "title"
+        },
+        {
+            "type": "product_list",
+            "id": "products",
+            "label": "Productos"
+        },
+        {
+            "type": "number",
+            "id": "percent_off",
+            "label": "Porcentaje de descuento",
+            "info": "Este es un valor ILUSTRATIVO."
+        },
+        {
+            "type": "number",
+            "id": "number_items",
+            "label": "Numero de elementos en escritorio",
+            "default": 2
+        },
+        {
+            "type": "checkbox",
+            "id": "photo_square",
+            "label": "Mostrar foto cuadrada",
+            "default": false
+        }
+    ],
+    "presets": [
+        {
+            "name": "Products primary"
+        }
+    ]
+}
+{% endschema %}
