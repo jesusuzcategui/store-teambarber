@@ -559,8 +559,10 @@
     cartSubmitInput.setAttribute('type', 'hidden');
     document.querySelector('#cart').appendChild(cartSubmitInput);
     document.querySelector('#checkout').addEventListener('click', function (event) {
-      fbq('track', 'initiateCheckout');
-      document.querySelector('#cart').submit();
+      //fbq('track', 'initiateCheckout');
+      setTimeout(function(){
+        document.querySelector('#cart').submit();
+      }, 1000);
     });
   });
 </script>
