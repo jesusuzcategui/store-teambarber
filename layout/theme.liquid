@@ -278,6 +278,8 @@
       }
     </script>
 
+    {% render "meta-pixel" %}
+
     {% if template.name == "product" %}
       <link rel="stylesheet" href="{{ 'product-accordeon.min.css' | asset_url }}">
     {% endif %}
