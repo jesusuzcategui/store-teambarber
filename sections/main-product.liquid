@@ -184,6 +184,7 @@
                       {{ product.description }}
                     </div>
                   </details>
+
                   {% unless block.settings.medios_pagos == blank %}
                     <details>
                       <summary>
@@ -195,16 +196,19 @@
                       </div>
                     </details>
                   {% endunless %}
-                  {% unless block.settings.tiempo_entrega == blank %}
-                    <details>
-                      <summary>
-                        <span>Tiempo de entrega</span>
-                        {% render 'icon-caret' %}
-                      </summary>
-                      <div class="">
-                        {{ block.settings.tiempo_entrega }}
-                      </div>
-                    </details>
+
+                  {% unless product.tags contains 'no-show-accordeons' %}
+                    {% unless block.settings.tiempo_entrega == blank %}
+                      <details>
+                        <summary>
+                          <span>Tiempo de entrega</span>
+                          {% render 'icon-caret' %}
+                        </summary>
+                        <div class="">
+                          {{ block.settings.tiempo_entrega }}
+                        </div>
+                      </details>
+                    {% endunless %}
                   {% endunless %}
                 </product-accordeon>
               {%- endif -%}
