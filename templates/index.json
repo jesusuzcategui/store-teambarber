@@ -26,7 +26,6 @@
         "heading",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-photo-897271_1.jpg",
         "image_overlay_opacity": 20,
@@ -104,6 +103,7 @@
         "template--21335723999546__74f627ae-fae4-43de-b952-b1cfbe8e95ac-slide-2",
         "b07606b7-b6ea-4391-a45a-9d98e998fd74"
       ],
+      "disabled": true,
       "custom_css": [
         ".slideshow__text.banner__box {background: transparent;}"
       ],
