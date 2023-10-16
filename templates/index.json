@@ -3,24 +3,6 @@
     "d018a792-7c06-43d9-a018-f1ba29723505": {
       "type": "slideshow",
       "blocks": {
-        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-05.jpg",
-            "heading": "BIENVENIDO A UN ESPACIO PARA TI",
-            "heading_size": "h1",
-            "subheading": "Cuídate desde tu casa",
-            "button_label": "VER TODOS LOS PRODUCTOS",
-            "link": "shopify:\/\/collections\/todos-los-productos",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
-        },
         "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-2": {
           "type": "slide",
           "settings": {
@@ -36,6 +18,24 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-05.jpg",
+            "heading": "BIENVENIDO A UN ESPACIO PARA TI",
+            "heading_size": "h1",
+            "subheading": "Cuídate desde tu casa",
+            "button_label": "VER TODOS LOS PRODUCTOS",
+            "link": "shopify:\/\/collections\/todos-los-productos",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
         },
@@ -59,8 +59,8 @@
         }
       },
       "block_order": [
-        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-1",
         "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-2",
+        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-1",
         "d4f2d90e-fd3a-48eb-b02f-f32f13418552"
       ],
       "settings": {
