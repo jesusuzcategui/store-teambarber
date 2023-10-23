@@ -3,6 +3,24 @@
     "d018a792-7c06-43d9-a018-f1ba29723505": {
       "type": "slideshow",
       "blocks": {
+        "256a02c0-f41a-436c-9ff4-0aa643e15316": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23_oct-05.jpg",
+            "heading": "HALLOWEEN",
+            "heading_size": "h1",
+            "subheading": "APROVECHA ESTA SEMANA NUESTROS SERVICIOS EN WEB CON 20% OFF",
+            "button_label": "VER LOS SERVICIOS",
+            "link": "shopify:\/\/collections\/servicios",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-2": {
           "type": "slide",
           "settings": {
@@ -56,31 +74,13 @@
             "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
-        },
-        "256a02c0-f41a-436c-9ff4-0aa643e15316": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23_oct-05.jpg",
-            "heading": "HALLOWEEN",
-            "heading_size": "h1",
-            "subheading": "APROVECHA ESTA SEMANA NUESTROS SERVICIOS EN WEB CON 20% OFF",
-            "button_label": "VER LOS SERVICIOS",
-            "link": "shopify:\/\/collections\/servicios",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "256a02c0-f41a-436c-9ff4-0aa643e15316",
         "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-2",
         "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-1",
-        "d4f2d90e-fd3a-48eb-b02f-f32f13418552",
-        "256a02c0-f41a-436c-9ff4-0aa643e15316"
+        "d4f2d90e-fd3a-48eb-b02f-f32f13418552"
       ],
       "settings": {
         "layout": "full_bleed",
