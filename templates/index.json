@@ -5,6 +5,7 @@
       "blocks": {
         "256a02c0-f41a-436c-9ff4-0aa643e15316": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/23_oct-05.jpg",
             "heading": "HALLOWEEN",
