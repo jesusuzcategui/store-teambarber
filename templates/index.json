@@ -5,14 +5,13 @@
       "blocks": {
         "256a02c0-f41a-436c-9ff4-0aa643e15316": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/23_oct-05.jpg",
-            "heading": "HALLOWEEN",
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-11-23_a_las_18.35.46.png",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "APROVECHA ESTA SEMANA NUESTROS SERVICIOS EN WEB CON 20% OFF",
-            "button_label": "VER LOS SERVICIOS",
-            "link": "shopify:\/\/collections\/servicios",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
