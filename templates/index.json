@@ -6,7 +6,7 @@
         "256a02c0-f41a-436c-9ff4-0aa643e15316": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-06_fa61cdb4-37cb-4111-9cd1-977747b4d919.png",
+            "image": "shopify:\/\/shop_images\/banner-06.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -20,68 +20,12 @@
             "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
-        },
-        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-05_2f4fdd6e-3398-468e-8a45-b935984a92c0.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "VER MÁS",
-            "link": "shopify:\/\/collections\/servicios",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-11-27_a_las_12.51.34.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "VER TODOS LOS PRODUCTOS",
-            "link": "shopify:\/\/collections\/sir-fausto",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "d4f2d90e-fd3a-48eb-b02f-f32f13418552": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-04_2f22e9e3-7593-4eae-86c9-3a368bcd6a55.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "VER PRODUCTOS DE MYCOCOS",
-            "link": "shopify:\/\/collections\/mycocos",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "256a02c0-f41a-436c-9ff4-0aa643e15316",
-        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-2",
-        "template--21335723999546__d018a792-7c06-43d9-a018-f1ba29723505-slide-1",
-        "d4f2d90e-fd3a-48eb-b02f-f32f13418552"
+        "256a02c0-f41a-436c-9ff4-0aa643e15316"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -119,7 +63,6 @@
         "heading",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-photo-897271_1.jpg",
         "image_overlay_opacity": 20,
