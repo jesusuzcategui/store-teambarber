@@ -42,6 +42,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Bienvenidos a nuestra tienda",
             "heading_size": "h1"
@@ -49,6 +50,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Comprar",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -64,9 +66,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-photo-897271_1.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/BANNER-04_31482cfc-cd9c-4b89-9426-123b8d4915ff.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
